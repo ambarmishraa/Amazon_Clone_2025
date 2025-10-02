@@ -1,0 +1,1 @@
+This is amazon clone with siddhant angane as a contributor.
