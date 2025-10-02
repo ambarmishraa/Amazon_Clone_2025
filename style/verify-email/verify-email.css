@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+    --primary-color: #FFFFFF;
+    --secondar-color: #000000;
+    --tertiary-color: #001F3C;
+}
+
+.body-wrapper{
+    background-color: var(--primary-color);
+    height: 100vh;
+}
+
+.navbar-wrapper{
+    height: 8vh; 
+    background-color: var(--tertiary-color);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.navbar-logo{
+    /* background-color: red; */
+}
+
+.navbar-steps{
+    /* background-color: green; */
+}
+
+.logo-wrapper{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps-wrapper{
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.step-number-active{
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 22.29px;
+    height: 22.29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-desc{
+    color: var(--primary-color);
+    margin-right: 30px;
+}
+
+.inactive{
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: white;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card-wrapper .card{
+    width: 568px;
+    height: 632px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondar-color);
+    border-radius: 12px;
+    padding: 51px 37px;
+}
+
+.card-heading h1{
+    font-size: 42.13px
+}
+
+.card-para p{
+    font-size: 20.41px;
+}
